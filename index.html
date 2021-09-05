@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <script>
+    	#button{
+    		background-color: rgb(58, 143, 255);
+    		color: aliceblue;
+    	}
         function add(){
             var n1=document.getElementById("num1");
             var n2=document.getElementById("num2");
@@ -54,10 +58,10 @@
                     <td><input type="text" id=result></td>
                 </tr>
             </table>
-            <button style="background-color: rgb(58, 143, 255);color: aliceblue;" onclick="add()">+</button>
-            <button style="background-color: rgb(58, 143, 255);color: aliceblue;" onclick="subt()">-</button>
-            <button style="background-color: rgb(58, 143, 255);color: aliceblue;" onclick="mul()">x</button>
-            <button style="background-color: rgb(58, 143, 255);color: aliceblue;" onclick="div()">/</button>
+            <button onclick="add()">+</button>
+            <button onclick="subt()">-</button>
+            <button onclick="mul()">x</button>
+            <button onclick="div()">/</button>
 
         </div>
 
