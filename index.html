@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <style>
+        button{
+    		background-color: rgb(95, 163, 252);
+    		color: red;
+            font-weight: bold;
+            font-size: 20px;
+    	}
+    </style>
     <script>
         function add(){
             var n1=document.getElementById("num1");
@@ -43,21 +51,21 @@
             <table style="text-align: left;"">
                 <tr>
                     <td>First Number</td>
-                    <td><input type="number"/ id="num1" placeholder="Number 1"></td>
+                    <td><input type="number"/ id="num1" placeholder="Number 1" required></td>
                 </tr>
                 <tr>
                     <td>Second Number</td>
-                    <td><input type="number"/ id="num2" placeholder="Number 2"></td>
+                    <td><input type="number"/ id="num2" placeholder="Number 2" required></td>
                 </tr>
                 <tr>
                     <td>Result</td>
                     <td><input type="text" id=result></td>
                 </tr>
             </table>
-            <button style="background-color: rgb(58, 143, 255);color: aliceblue;" onclick="add()">+</button>
-            <button style="background-color: rgb(58, 143, 255);color: aliceblue;" onclick="subt()">-</button>
-            <button style="background-color: rgb(58, 143, 255);color: aliceblue;" onclick="mul()">x</button>
-            <button style="background-color: rgb(58, 143, 255);color: aliceblue;" onclick="div()">/</button>
+            <button onclick="add()">+</button>
+            <button onclick="subt()">-</button>
+            <button onclick="mul()">x</button>
+            <button onclick="div()">/</button>
 
         </div>
 
